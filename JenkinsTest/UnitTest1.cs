@@ -11,6 +11,7 @@ namespace JenkinsTest
         {
             Assert.AreEqual("Jenkins",Program.createMessage());
         }
+        [TestMethod]
         public void TestMethod2()
         {
             Assert.AreEqual("Jenkins", Program.createMessage());
